@@ -1,0 +1,13 @@
+path: /content/drive/MyDrive/Project_CK/YOLO_detected  # Основной путь
+train: train/images  # Относительный путь от 'path'
+val: val/images      # Аналогично
+test: test/images    # Опционально
+
+# Автоматическое кеширование (добавьте эти строки)
+cache: disk          # или 'ram' если RAM > 50GB
+auto_download: False # Предотвращает неожиданные скачивания
+
+# Классы
+names: 
+  0: airport
+nc: 1               # Количество классов
