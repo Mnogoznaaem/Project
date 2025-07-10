@@ -120,9 +120,11 @@ cd Project
 python -m venv .venv
 .venv/Scripts/Activate.ps1      # Windows
 pip install -r requirements.txt
+```
 
 Дополнительно (если нужны GPU‑ядра в Jupyter/VS Code):
 
+```bash
 pip install ipykernel
 python -m ipykernel install --user --name=Project --display-name="Python (Project)"
 ```
