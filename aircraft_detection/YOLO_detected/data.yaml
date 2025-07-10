@@ -1,4 +1,4 @@
-path: /content/drive/MyDrive/Project_CK/YOLO_detected  # Основной путь
+path: ./YOLO_detected  # Основной путь
 train: train/images  # Относительный путь от 'path'
 val: val/images      # Аналогично
 test: test/images    # Опционально
@@ -9,5 +9,5 @@ auto_download: False # Предотвращает неожиданные ска�
 
 # Классы
 names: 
-  0: airport
+  0: aircraft
 nc: 1               # Количество классов
