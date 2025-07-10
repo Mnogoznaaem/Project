@@ -1,5 +1,10 @@
 # Детекция аэропортов и самолетов
 
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.13-blue?logo=python&logoColor=white)]()
+[![PyTorch](https://img.shields.io/badge/PyTorch-CUDA--12.8-red?logo=pytorch&logoColor=white)]()
+
+
 **Автоматическое обнаружение аэропортов и самолётов на изображениях**
 
 Данный IT-проект был выполнен командой как диплом по ДПО "Методы искусственного интелекта в задачах дистанционного зондирования земли". Проект демонстрирует использование модели YOLOv11 для детекции объектов на оптических спутниковых снимках ДЗЗ.
