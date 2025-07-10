@@ -79,15 +79,15 @@
 
 Пример детекции аэропортов:
 
-![Airport detection example](airport_detection\test_predictions\predictions\test_image_3_moscow__airport_predictions.jpg)
+![Airport detection example](airport_detection/test_predictions/predictions/test_image_3_moscow__airport_predictions.jpg)
 
 Пример детекции самолетов:
 
-![Airport detection example](result_work_models_detected/test_work/predict_image/airport_0_with_aircrafts.jpg)
+![Aircraft detection example](result_work_models_detected/test_work/predict_image/airport_0_with_aircrafts.jpg)
 
 Пример детекции каскада моделей:
 
-![Airport detection example](result_work_models_detected\test_work\predict_image\original_with_airports.jpg)
+![Cascade detection example](result_work_models_detected/test_work/predict_image/original_with_airports.jpg)
 
 ---
 
@@ -95,15 +95,15 @@
 
 Распределение разметки датасета детекции аэропортов:
 
-![Airport detection example](airport_detection\models\airport_yolov11\labels_correlogram.jpg)
+![Distribution аirport dataset example](airport_detection/models/airport_yolov11/labels_correlogram.jpg)
 
 Распределение разметки датасета детекции самолетов:
 
-![Airport detection example](aircraft_detection\models\aircraft_yolov11\labels_correlogram.jpg)
+![Distribution аircraft dataset example](aircraft_detection/models/aircraft_yolov11/labels_correlogram.jpg)
 
 F1‑Score модели детекции самолетов:
 
-![Airport detection example](aircraft_detection\models\aircraft_yolov11\F1_curve.png)
+![F1 Score аircraft detection metrix](aircraft_detection/models/aircraft_yolov11/F1_curve.png)
 
 ---
 
@@ -113,13 +113,11 @@ F1‑Score модели детекции самолетов:
 git clone https://github.com/Mnogoznaaem/Project.git
 cd Project
 python -m venv .venv
-.venv\Scripts\Activate.ps1      # Windows
+.venv/Scripts/Activate.ps1      # Windows
 pip install -r requirements.txt
-```
 
 Дополнительно (если нужны GPU‑ядра в Jupyter/VS Code):
 
-```bash
 pip install ipykernel
 python -m ipykernel install --user --name=Project --display-name="Python (Project)"
 ```
