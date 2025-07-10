@@ -60,5 +60,5 @@
 
 Исходное фото ушищающий самолетов и аэропортов:
 
-
+![Airport detection example](result_work_models_detected/test_work/predict_image/airport_0_with_aircrafts.jpg)
 
